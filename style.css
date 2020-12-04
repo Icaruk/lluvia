@@ -33,7 +33,7 @@ p {
 	font-size: 0.9em;
 	text-align: center;
 	padding: 0 0.5em;
-	
+	margin-bottom: 0.5em;
 }
 
 .fila {
@@ -52,7 +52,7 @@ p {
 .columna {
 	display: flex;
 	flex-direction: column-reverse;
-	margin-right: 0.25em;
+	margin-right: 0.05em;
 	
 	width: 100%;
 }
@@ -65,7 +65,7 @@ p {
 	max-width: 5em;
 	
 	width: auto;
-	margin-top: 0.25em;
+	margin-top: 0.05em;
 }
 
 .bloque-pintado {
