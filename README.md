@@ -8,5 +8,5 @@ Esta es mi solución al problema de **Trapping Rain Water** _(atrapando agua de 
 
 ---
 
-![](https://i.gyazo.com/3069d630813dbc57f8c79cfcc033943e.gif)
+![](https://i.gyazo.com/ca889462c9c4818b0af9d758d20d3d14.gif)
 
