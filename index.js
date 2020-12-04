@@ -9,6 +9,10 @@ let alturas = {};
 
 
 
+/**
+ * Genera los bloques a partir de las constantes de arriba del todo.
+*/
+
 const generaBloques = () => {
 	
 	const main = document.querySelector(".fila");
@@ -40,6 +44,13 @@ const generaBloques = () => {
 
 
 
+/**
+ * Establece la altura de la columna y lanza el re-pintado de todos los bloques.
+ * 
+ * @param {number} x Columna
+ * @param {number} y Fila
+*/
+
 const pulsaBloque = (x, y) => {
 	
 	alturas[x] = y;
@@ -50,6 +61,9 @@ const pulsaBloque = (x, y) => {
 
 
 
+/**
+ * Pinta los bloques que están seleccionados.
+*/
 const pintaBloques = () => {
 	
 	for (let _columna = 0; _columna < longitudX; _columna ++) {
@@ -69,6 +83,10 @@ const pintaBloques = () => {
 };
 
 
+
+/**
+ * Pinta agua en los bloques que corresponde.
+*/
 
 const pintaAgua = () => {
 	
@@ -109,6 +127,14 @@ const pintaAgua = () => {
 
 
 
+/**
+ * Pinta agua en los bloques indicados.
+ * 
+ * @param {number} altura A qué altura se va a pintar
+ * @param {number} desde Desde qué columna
+ * @param {number} hasta Hasta qué columna
+*/
+
 const pintaFilaAgua = (altura, desde, hasta) => {
 	
 	for (let _columna = desde; _columna <= hasta; _columna ++) {
@@ -122,6 +148,9 @@ const pintaFilaAgua = (altura, desde, hasta) => {
 };
 
 
+/**
+ * Reinicia todos los bloques.
+*/
 
 const pulsaVaciarTodo = () => {
 	

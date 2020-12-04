@@ -59,7 +59,7 @@ p {
 
 .bloque {
 	cursor: pointer;
-	background: rgba(128, 128, 128, 0.274);
+	background: rgba(128, 128, 128, 0.1);
 	height: 6em;
 	min-width: 1em;
 	max-width: 5em;
@@ -72,7 +72,7 @@ p {
 	background: grey;
 }
 .bloque-oculto {
-	background: rgba(128, 128, 128, 0.274);
+	background: rgba(128, 128, 128, 0.1);
 }
 .bloque-agua {
 	background: rgba(4, 162, 253, 0.973);
