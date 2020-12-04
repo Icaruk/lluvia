@@ -1,0 +1,86 @@
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
+
+
+.main {
+	width: 100vw;
+	height: 100vh;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.imagenNube {
+	height: 10em;
+	margin-bottom: 1em;
+}
+
+.explicacion {
+	color: rgb(119, 119, 119);
+	font-size: 0.9em;
+	text-align: center;
+	padding: 0 0.5em;
+	
+}
+
+.fila {
+	display: flex;
+	justify-content: center;
+	
+	width: 100%;
+	max-width: 40em;
+}
+@media (max-width: 660px) {
+	.fila {
+		width: 90%;
+	}
+}
+
+.columna {
+	display: flex;
+	flex-direction: column-reverse;
+	margin-right: 0.25em;
+	
+	width: 100%;
+}
+
+.bloque {
+	cursor: pointer;
+	background: rgba(128, 128, 128, 0.274);
+	height: 6em;
+	min-width: 1em;
+	max-width: 5em;
+	
+	width: auto;
+	margin-top: 0.25em;
+}
+
+.bloque-pintado {
+	background: grey;
+}
+.bloque-oculto {
+	background: rgba(128, 128, 128, 0.274);
+}
+.bloque-agua {
+	background: rgba(4, 162, 253, 0.973);
+}
+
+
+.botonVaciarTodo {
+	margin-top: 2em;
+	padding: 0.5em;
+	width: 20em;
+}
