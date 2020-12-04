@@ -75,8 +75,6 @@ const pintaAgua = () => {
 	// Recorro las filas de arriba a abajo
 	for (let _altura = longitudY; _altura > 0; _altura --) {	
 		
-		console.log( `------ Altura ${_altura} ------` );
-		
 		let idxPrimerBloque = null;
 		let idxSegundoBloque = null;
 		
